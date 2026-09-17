@@ -1,0 +1,93 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FBF7F0;
+  color: #2E2E2E;
+}
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+  color: #4A9B8E;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+ .pet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+    
+  .pet-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+    .pet-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #4A9B8E;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    white-space: nowrap;
+}
+nav a:hover {
+    background-color: #3A7D6E;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #4A9B8E;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+footer h3 {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+}
+footer > p {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+footer div {
+    flex: 1;
+    text-align: center;
+}
+.button {
+    background-color: #F2914F;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+.button:hover {
+    background-color: #D97A3C;
+}
