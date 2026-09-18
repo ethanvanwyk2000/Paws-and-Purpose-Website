@@ -45,21 +45,21 @@ Paws-and-Purpose-Website/
 - Built a reusable `.button` class for call-to-action links, with a hover state.
 - Fixed content inconsistencies: corrected the Therapy Programme page's description to specifically reference aged-care facilities and housebound seniors (previously mentioned hospitals and schools, which didn't match the approved proposal).
 - Standardised page titles across all pages to a consistent "Page Name | Paws and Purpose" format.
-## Screenshots
+
  
 Evidence of the site displayed across different screen sizes.
  
 **Desktop**
  
-![Desktop screenshot](docs/screenshots/desktop.png)
+![Desktop screenshot](screenshots/desktop.png)
  
 **Tablet**
  
-![Tablet screenshot](docs/screenshots/tablet.png)
+![Tablet screenshot](screenshots/tablet.png)
  
 **Mobile**
  
-![Mobile screenshot](docs/screenshots/mobile.png)
+![Mobile screenshot](screenshots/phone.png)
  
 ## References
  
